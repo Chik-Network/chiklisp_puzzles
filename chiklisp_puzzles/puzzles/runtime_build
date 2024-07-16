@@ -1,8 +1,8 @@
 import pathlib
 
-from chialisp_builder import ChialispBuild
+from chiklisp_builder import ChiklispBuild
 
-from chialisp_stdlib import STABLE_INCLUDE_DIRECTORY
+from chiklisp_stdlib import STABLE_INCLUDE_DIRECTORY
 
 PUZZLE_PATHS = [
     pathlib.Path(_)
@@ -14,6 +14,6 @@ PUZZLE_PATHS = [
 ]
 
 BUILD_ARGUMENTS = {
-    puzzle_path.with_suffix(".hex").name: ChialispBuild([STABLE_INCLUDE_DIRECTORY])
+    puzzle_path.with_suffix(".hex").name: ChiklispBuild([STABLE_INCLUDE_DIRECTORY])
     for puzzle_path in PUZZLE_PATHS
 }

@@ -1,6 +1,6 @@
-# chialisp_puzzles
+# chiklisp_puzzles
 
-This project contains several standard and legacy puzzles commonly used on the chia network.
+This project contains several standard and legacy puzzles commonly used on the chik network.
 
 Note that it uses `enscons` to build, as the more commonly used `setuptools` does not easily allow fine-grained control of the contents of the `sdist` and `wheel` files.
 
@@ -11,7 +11,7 @@ In particular, this example takes pains to include the source files `runtime_bui
 To load a puzzle, do something like
 
 ```python
-from chialisp_puzzles import load_puzzle
+from chiklisp_puzzles import load_puzzle
 
 program = load_puzzle("p2_delegated_puzzle_or_hidden_puzzle")
 ```

@@ -1,4 +1,4 @@
-from chialisp_puzzles import load_puzzle
+from chiklisp_puzzles import load_puzzle
 
 
 def check(puzzle_name: str, expected_hash: str):
