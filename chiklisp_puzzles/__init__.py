@@ -1,4 +1,4 @@
-from klvm_rs import Program
+from clvk_rs import Program
 
 
 def load_puzzle(puzzle_name: str) -> Program:
